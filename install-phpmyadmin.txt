@@ -1,0 +1,13 @@
+#!/bin/bash
+# Actualizar los paquetes del sistema:
+sudo apt update -y
+sudo apt upgrade -y
+
+# Instalar Apache, PHP y las extensiones necesarias:
+sudo apt install apache2 php php-mysql libapache2-mod-php php-cli php-curl php-gd php-mbstring php-xml php-xmlrpc php-zip -y
+
+# descargar e instalar PMA
+cd /var/www/html
+sudo wget https://files.phpmyadmin.net/phpMyAdmin/5.2.2/phpMyAdmin-5.2.2-all-languages.tar.gz
+sudo tar -xzf phpMyAdmin-5.2.2-all-languages.tar.gz
+sudo mv phpMyAdmin-5.2.2-all-languages phpmyadmin

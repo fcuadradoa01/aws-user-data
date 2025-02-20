@@ -1,0 +1,4 @@
+<powershell>
+# Script de PowerShell para instalar AWS CLI usando Winget
+winget install --id Amazon.AWSCLI --silent --accept-package-agreements --accept-source-agreements
+</powershell>

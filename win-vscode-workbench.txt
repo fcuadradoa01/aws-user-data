@@ -1,0 +1,2 @@
+winget install --id Microsoft.VisualStudioCode --silent --accept-package-agreements
+winget install --id Oracle.MySQLWorkbench --silent --accept-package-agreements
