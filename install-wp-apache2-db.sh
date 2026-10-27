@@ -5,8 +5,8 @@ exec > /var/log/user-data.log 2>&1
 
 # Variables
 DB_NAME="wordpress"
-DB_USER="wpuser"
-DB_PASS="CambiamePorAlgoSeguro123!"
+DB_USER="wordpress"
+DB_PASS="P@ssword"
 WP_DIR="/var/www/html"
 
 # Actualizar sistema
